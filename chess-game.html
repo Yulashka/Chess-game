@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<style> 
+.container {
+}
+
+.row {
+	display: flex;
+	flex-direction: row;
+}
+.child {
+	/*flex-grow: 1;*/
+	font-size: 32px;
+	font-weight: bold;
+	text-align: center;
+	width: 80px;
+	/*height: 80px;*/
+	border: 1px solid black;
+	line-height: 2;
+	flex-basis: auto;
+}
+
+.row:nth-child(2n):not(:first-child) .child:nth-child(2n) {
+    background: white;
+}
+
+.row:nth-child(2n):not(:first-child) .child:nth-child(2n+1):not(:first-child)  {
+    background: black;
+}
+
+.row:nth-child(2n+1):not(:first-child) .child:nth-child(2n+1):not(:first-child) {
+	background-color: white;
+}
+
+.row:nth-child(2n+1):not(:first-child) .child:nth-child(2n):not(:first-child) {
+	background-color: black;
+}
+
+
+
+</style>
+</head>
+
+<body>
+
+
+<p>Hello World!</p>
+
+<div class="container">
+	<div class="row">
+		<div class="child"></div>
+		<div class="child">1</div>
+		<div class="child">2</div>
+		<div class="child">3</div>
+		<div class="child">4</div>
+		<div class="child">5</div>
+		<div class="child">6</div>
+		<div class="child">7</div>
+		<div class="child">8</div>
+	</div>
+	<div class="row">
+		<div class="child">A</div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+	</div>
+	<div class="row">
+		<div class="child">B</div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+	</div>
+	<div class="row">
+		<div class="child">C</div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+	</div>
+	<div class="row">
+		<div class="child">D</div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+	</div>
+	<div class="row">
+		<div class="child">E</div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+	</div>
+	<div class="row">
+		<div class="child">F</div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+	</div>
+	<div class="row">
+		<div class="child">G</div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+	</div>
+	<div class="row">
+		<div class="child">H</div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+	</div>
+	<div class="row">
+		<div class="child">I</div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+		<div class="child white"></div>
+		<div class="child black"></div>
+	</div>
+</div>
+
+
+<script>
+	
+</script>
+
+
+</body>
+</html> 
